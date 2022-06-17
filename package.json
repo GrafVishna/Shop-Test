@@ -30,7 +30,7 @@
 		"gulp-fonter-fix": "latest",
 		"gulp-group-css-media-queries": "latest",
 		"gulp-if": "latest",
-		"gulp-imagemin": "latest",
+		"gulp-imagemin": "^7.1.0",
 		"gulp-newer": "latest",
 		"gulp-notify": "latest",
 		"gulp-plumber": "latest",
@@ -72,6 +72,10 @@
 	},
 	"dependencies": {
 		"gulp-cli": "^2.3.0",
+		"imagemin-gifsicle": "^7.0.0",
+		"imagemin-mozjpeg": "^10.0.0",
+		"imagemin-optipng": "^8.0.0",
+		"imagemin-svgo": "^10.0.1",
 		"simplebar": "latest"
 	}
 }
