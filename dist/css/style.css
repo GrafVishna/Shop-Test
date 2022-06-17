@@ -533,6 +533,7 @@ h6 {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 37.5rem;
           flex: 0 1 37.5rem;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -541,6 +542,7 @@ h6 {
 .header__input {
   padding: 0.3125rem 0.3125rem 0.3125rem 1.5625rem;
   background-color: inherit;
+  border-radius: 0.5rem;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -575,6 +577,7 @@ h6 {
   background-color: #7ac751;
   display: inline-block;
   position: relative;
+  height: 100%;
 }
 
 .header__batton-body::before {

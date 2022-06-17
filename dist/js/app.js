@@ -3574,6 +3574,10 @@
                 dynamicBullets: true
             },
             loop: true,
+            autoplay: {
+                delay: 3e3,
+                disableOnInteraction: false
+            },
             on: {}
         });
     }
