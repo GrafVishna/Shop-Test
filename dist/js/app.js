@@ -3767,11 +3767,14 @@
             observeParents: true,
             slidesPerView: 1,
             autoHeight: false,
-            speed: 1e3,
+            speed: 500,
             loop: false,
             effect: "fade",
+            fadeEffect: {
+                crossFade: true
+            },
             autoplay: {
-                delay: 3e3,
+                delay: 1e3,
                 disableOnInteraction: false
             },
             navigation: {
